@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat' ;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-cabecalho{
+    width: 80px;
+}
+
+.menu-navegacao a{
+    color: #ff00ea;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.menu-navegacao{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.botao-rosa{
+    background-color: #ff00ea;
+    padding: 10px 20px;
+    color: #053742;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.botao-rosa:hover{
+    background-color:rgb(255, 255, 255);
+    border: none;
+    color: #ff00ea;
+}
+
+.imagem-banner{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 10px 0 10px;
+}
+
+.banner{
+    text-align: center;
+    background-image: url('../imagens/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 30px 0;
+}
+
+.titulo-banner{
+    color: #ffca1d;
+    font-family: 'Sedgwick Ave Display';
+    font-size: 56px;
+    letter-spacing: 3px;
+    text-shadow: 1px 3px black;
+}
